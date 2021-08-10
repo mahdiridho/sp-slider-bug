@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <script
+      src="https://jspm.dev/@spectrum-web-components/bundle/elements.js"
+      type="module"
+  ></script>
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit-html';
+    import '../sp-slider-bundle.js';
+
+    render(
+      html`
+        <sp-slider-bundle></sp-slider-bundle>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>

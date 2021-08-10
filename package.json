@@ -1,0 +1,20 @@
+{
+  "name": "sp-slider-bug",
+  "version": "0.0.0",
+  "description": "Webcomponent sp-slider-bug following open-wc recommendations",
+  "author": "sp-slider-bug",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server"
+  },
+  "dependencies": {
+    "@spectrum-web-components/slider": "^0.10.4",
+    "@spectrum-web-components/theme": "^0.8.12",
+    "lit-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.20"
+  }
+}
