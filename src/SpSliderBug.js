@@ -1,5 +1,7 @@
 import { html, css, LitElement } from 'lit-element';
 import '@spectrum-web-components/theme/sp-theme';
+import '@spectrum-web-components/theme/theme-dark.js';
+import '@spectrum-web-components/theme/scale-large.js';
 import '@spectrum-web-components/slider/sp-slider';
 
 export class SpSliderBug extends LitElement {
